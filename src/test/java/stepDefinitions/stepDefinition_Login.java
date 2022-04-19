@@ -18,6 +18,7 @@ public class stepDefinition_Login {
 	@When("^User login into application with username \"([^\"]*)\" and password$")
     public void user_login_into_application_with_username_something_and_password(String strArg1) throws Throwable {
         System.out.print(strArg1);
+        System.out.print(strArg1);
     }
 
     @Then("^Homepage is populated$")
